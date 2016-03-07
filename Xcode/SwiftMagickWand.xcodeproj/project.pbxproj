@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52BE19CC1C8D823F00CF3788 /* SwiftMagickWand.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BE19CB1C8D823F00CF3788 /* SwiftMagickWand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BE19D31C8D823F00CF3788 /* SwiftMagickWand.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52BE19C81C8D823F00CF3788 /* SwiftMagickWand.framework */; };
+		52BE19D81C8D823F00CF3788 /* SwiftMagickWandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BE19D71C8D823F00CF3788 /* SwiftMagickWandTests.swift */; };
+		52BE19E91C8D859000CF3788 /* Wand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BE19E81C8D859000CF3788 /* Wand.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52BE19D41C8D823F00CF3788 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52BE19BF1C8D823F00CF3788 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52BE19C71C8D823F00CF3788;
+			remoteInfo = SwiftMagickWand;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52BE19C81C8D823F00CF3788 /* SwiftMagickWand.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftMagickWand.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52BE19CB1C8D823F00CF3788 /* SwiftMagickWand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftMagickWand.h; sourceTree = "<group>"; };
+		52BE19CD1C8D823F00CF3788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52BE19D21C8D823F00CF3788 /* SwiftMagickWandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMagickWandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52BE19D71C8D823F00CF3788 /* SwiftMagickWandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMagickWandTests.swift; sourceTree = "<group>"; };
+		52BE19D91C8D823F00CF3788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52BE19E81C8D859000CF3788 /* Wand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wand.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52BE19C41C8D823F00CF3788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BE19CF1C8D823F00CF3788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BE19D31C8D823F00CF3788 /* SwiftMagickWand.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52BE19BE1C8D823F00CF3788 = {
+			isa = PBXGroup;
+			children = (
+				52BE19E71C8D859000CF3788 /* Sources */,
+				52BE19CA1C8D823F00CF3788 /* SwiftMagickWand */,
+				52BE19D61C8D823F00CF3788 /* SwiftMagickWandTests */,
+				52BE19C91C8D823F00CF3788 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52BE19C91C8D823F00CF3788 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52BE19C81C8D823F00CF3788 /* SwiftMagickWand.framework */,
+				52BE19D21C8D823F00CF3788 /* SwiftMagickWandTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52BE19CA1C8D823F00CF3788 /* SwiftMagickWand */ = {
+			isa = PBXGroup;
+			children = (
+				52BE19CB1C8D823F00CF3788 /* SwiftMagickWand.h */,
+				52BE19CD1C8D823F00CF3788 /* Info.plist */,
+			);
+			path = SwiftMagickWand;
+			sourceTree = "<group>";
+		};
+		52BE19D61C8D823F00CF3788 /* SwiftMagickWandTests */ = {
+			isa = PBXGroup;
+			children = (
+				52BE19D71C8D823F00CF3788 /* SwiftMagickWandTests.swift */,
+				52BE19D91C8D823F00CF3788 /* Info.plist */,
+			);
+			path = SwiftMagickWandTests;
+			sourceTree = "<group>";
+		};
+		52BE19E71C8D859000CF3788 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				52BE19E81C8D859000CF3788 /* Wand.swift */,
+			);
+			name = Sources;
+			path = ../Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		52BE19C51C8D823F00CF3788 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BE19CC1C8D823F00CF3788 /* SwiftMagickWand.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		52BE19C71C8D823F00CF3788 /* SwiftMagickWand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52BE19DC1C8D823F00CF3788 /* Build configuration list for PBXNativeTarget "SwiftMagickWand" */;
+			buildPhases = (
+				52BE19C31C8D823F00CF3788 /* Sources */,
+				52BE19C41C8D823F00CF3788 /* Frameworks */,
+				52BE19C51C8D823F00CF3788 /* Headers */,
+				52BE19C61C8D823F00CF3788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftMagickWand;
+			productName = SwiftMagickWand;
+			productReference = 52BE19C81C8D823F00CF3788 /* SwiftMagickWand.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		52BE19D11C8D823F00CF3788 /* SwiftMagickWandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52BE19DF1C8D823F00CF3788 /* Build configuration list for PBXNativeTarget "SwiftMagickWandTests" */;
+			buildPhases = (
+				52BE19CE1C8D823F00CF3788 /* Sources */,
+				52BE19CF1C8D823F00CF3788 /* Frameworks */,
+				52BE19D01C8D823F00CF3788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52BE19D51C8D823F00CF3788 /* PBXTargetDependency */,
+			);
+			name = SwiftMagickWandTests;
+			productName = SwiftMagickWandTests;
+			productReference = 52BE19D21C8D823F00CF3788 /* SwiftMagickWandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52BE19BF1C8D823F00CF3788 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Yusuke Ito";
+				TargetAttributes = {
+					52BE19C71C8D823F00CF3788 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					52BE19D11C8D823F00CF3788 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 52BE19C21C8D823F00CF3788 /* Build configuration list for PBXProject "SwiftMagickWand" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 52BE19BE1C8D823F00CF3788;
+			productRefGroup = 52BE19C91C8D823F00CF3788 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52BE19C71C8D823F00CF3788 /* SwiftMagickWand */,
+				52BE19D11C8D823F00CF3788 /* SwiftMagickWandTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52BE19C61C8D823F00CF3788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BE19D01C8D823F00CF3788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52BE19C31C8D823F00CF3788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BE19E91C8D859000CF3788 /* Wand.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BE19CE1C8D823F00CF3788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BE19D81C8D823F00CF3788 /* SwiftMagickWandTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52BE19D51C8D823F00CF3788 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52BE19C71C8D823F00CF3788 /* SwiftMagickWand */;
+			targetProxy = 52BE19D41C8D823F00CF3788 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		52BE19DA1C8D823F00CF3788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		52BE19DB1C8D823F00CF3788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		52BE19DD1C8D823F00CF3788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				HEADER_SEARCH_PATHS = "/usr/local/opt/imagemagick/include/ImageMagick-6";
+				INFOPLIST_FILE = SwiftMagickWand/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/opt/imagemagick/lib,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.novi.SwiftMagickWand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "\"$(SRCROOT)/../Packages\"";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52BE19DE1C8D823F00CF3788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				HEADER_SEARCH_PATHS = "/usr/local/opt/imagemagick/include/ImageMagick-6";
+				INFOPLIST_FILE = SwiftMagickWand/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/opt/imagemagick/lib,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.novi.SwiftMagickWand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "\"$(SRCROOT)/../Packages\"";
+			};
+			name = Release;
+		};
+		52BE19E01C8D823F00CF3788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SwiftMagickWandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.novi.SwiftMagickWandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52BE19E11C8D823F00CF3788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SwiftMagickWandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.novi.SwiftMagickWandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52BE19C21C8D823F00CF3788 /* Build configuration list for PBXProject "SwiftMagickWand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BE19DA1C8D823F00CF3788 /* Debug */,
+				52BE19DB1C8D823F00CF3788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52BE19DC1C8D823F00CF3788 /* Build configuration list for PBXNativeTarget "SwiftMagickWand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BE19DD1C8D823F00CF3788 /* Debug */,
+				52BE19DE1C8D823F00CF3788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52BE19DF1C8D823F00CF3788 /* Build configuration list for PBXNativeTarget "SwiftMagickWandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BE19E01C8D823F00CF3788 /* Debug */,
+				52BE19E11C8D823F00CF3788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52BE19BF1C8D823F00CF3788 /* Project object */;
+}
