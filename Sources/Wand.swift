@@ -32,11 +32,14 @@ public class Wand {
     
     public func getImageBytes() -> [BufferType] {
         var size: Int = 0
-        let mem = MagickWriteImageBlob(wand, &size)
+        let mem = MagickWriteImageBlob(wand, &size) // TODO
         var outBuf = Array<BufferType>.init(count: size, repeatedValue: 0)
         for i in 0..<size {
             outBuf[i] = mem[i]
         }
+        // TODO: free memory
         return outBuf
     }
+    
+    // TODO: deinit
 }
